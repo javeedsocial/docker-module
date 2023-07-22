@@ -13,5 +13,24 @@ docker.io/library/mariadb:latest
 javeedsimplilea@ip-172-31-27-231:~$ docker images
 REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
 mariadb      latest    011343cf3ec3   2 weeks ago   403MB
+javeedsimplilea@ip-172-31-27-231:~$
+javeedsimplilea@ip-172-31-27-231:~$ docker pull mariadb:11.1-rc
+11.1-rc: Pulling from library/mariadb
+9d19ee268e0d: Already exists 
+718e898a86ff: Already exists 
+43bd7a143a6c: Already exists 
+80cdf483b70a: Already exists 
+b82ab599a4fb: Pull complete 
+53d6556a3715: Pull complete 
+9aab1772f362: Pull complete 
+19d246961b13: Pull complete 
+Digest: sha256:cded8337bc683dff87d051a67a5db644816e28987f14e6f2ce0ccaf630f0c4b9
+Status: Downloaded newer image for mariadb:11.1-rc
+docker.io/library/mariadb:11.1-rc
+javeedsimplilea@ip-172-31-27-231:~$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+mariadb      latest    011343cf3ec3   2 weeks ago   403MB
+mariadb      11.1-rc   a5a9439794dd   2 weeks ago   404MB
 javeedsimplilea@ip-172-31-27-231:~$ 
+
 ```
